@@ -1,7 +1,20 @@
-# Custom by BroadBrand
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Build. Customize. Launch.
+# Run and deploy your AI Studio app
 
-Custom by BroadBrand is a premium white-label website platform that empowers businesses, creators, and brands to build professional websites through a powerful visual editing experience—without writing code.
+This contains everything you need to run your app locally.
 
-The platform combines premium website templates, workspace management, AI-powered mockup generation, and integrated publishing into a single, modern experience.
+View your app in AI Studio: https://ai.studio/apps/43f627d2-cc48-4194-972e-66605f0bc68d
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
